@@ -1,5 +1,5 @@
-# Clasificación de_metástasis de_cáncer de mama en_ganglios linfaticos con Deep Learning
-Trabajo Fin de Master:  "Clasificación de metástasis de cáncer de mama en ganglios linfáticos mediante técnicas de deep learning aplicadas a imágenes histológicas" para el máster de Ingeligencia Artificial cursado en la UNIR.
+# Clasificación de metástasis de cáncer de mama en ganglios linfaticos con Deep Learning en imágenes histológicas
+Este trabajo Fin de Master se ha desarrollado como fase final del máster de Ingeligencia Artificial cursado en la UNIR (España).
 
 # Resumen
 
