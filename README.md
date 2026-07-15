@@ -2,8 +2,8 @@
 ![Uploading image.png…](1200w.avif)
 
 Este Trabajo Fin de Master se ha desarrollado como fase final del máster de Ingeligencia Artificial cursado en la UNIR (España).
-Los datasets de imágenes se pueden descargar del Google Drive que aparece en la web del dataset : https://patchcamelyon.grand-challenge.org/Download/. 
-No se incluyen los datasets en el repo directamente por límite de memoria de Github
+Los datasets de imágenes se pueden descargar del Google Drive que aparece en la web del dataset : . 
+
 
 
 # Resumen
@@ -29,13 +29,13 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
    + UNI_1: uni_head_only_best.pt
 
 # Fuentes de datos 
-Se han usado los ficheros de datos del dataset PatchCamelyon extraídos de la fuente: https://patchcamelyon.grand-challenge.org/Introduction/ :
+Se han usado los ficheros de datos del dataset PatchCamelyon. Los datasets de imágenes se pueden descargar del Google Drive que aparece en la web del dataset ([https://patchcamelyon.grand-challenge.org/Download/](https://patchcamelyon.grand-challenge.org/Download/)). Los ficheros usados son:
 - camelyonpatch_level_2_split_train_x.h5
 - camelyonpatch_level_2_split_train_y.h5
 - camelyonpatch_level_2_split_valid_x.h5
 - camelyonpatch_level_2_split_valid_y.h5
 - camelyonpatch_level_2_split_test_x.h5
 - camelyonpatch_level_2_split_test_y.h5
-Para este proyecto los archivos con metadatos del dataset no se han  utilizado
-
+Para este proyecto los archivos con metadatos del dataset no se han utilizado
+No se incluyen los datasets en el repositorio directamente por límite de memoria de Github
    
