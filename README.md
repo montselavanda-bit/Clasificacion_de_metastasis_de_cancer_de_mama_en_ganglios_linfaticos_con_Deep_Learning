@@ -1,5 +1,9 @@
 # Clasificación de metástasis de cáncer de mama en ganglios linfaticos con Deep Learning en imágenes histológicas
+![Uploading image.png…]()
+
 Este Trabajo Fin de Master se ha desarrollado como fase final del máster de Ingeligencia Artificial cursado en la UNIR (España).
+
+
 
 # Resumen
 
@@ -14,7 +18,7 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
 +   UNI_2: Se realiza un finetunning de las últimas dos capas del modelo UNI (encoder) y se entrena la red clasificadora como se hacía en el pipeline anterior
 Ambos pipelines son evaluados en este notebook
 
-Ficheros de datos del dataset PatchCamelyon utilizados (fuente: :
+Ficheros de datos del dataset PatchCamelyon utilizados (fuente: https://patchcamelyon.grand-challenge.org/Introduction/) :
 - camelyonpatch_level_2_split_train_x.h5
 - camelyonpatch_level_2_split_train_y.h5
 - camelyonpatch_level_2_split_valid_x.h5
