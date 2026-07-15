@@ -18,15 +18,6 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
 +   UNI_2: Se realiza un finetunning de las últimas dos capas del modelo UNI (encoder) y se entrena la red clasificadora como se hacía en el pipeline anterior
 Ambos pipelines son evaluados en este notebook
 
-Ficheros de datos del dataset PatchCamelyon utilizados (fuente: https://patchcamelyon.grand-challenge.org/Introduction/) :
-- camelyonpatch_level_2_split_train_x.h5
-- camelyonpatch_level_2_split_train_y.h5
-- camelyonpatch_level_2_split_valid_x.h5
-- camelyonpatch_level_2_split_valid_y.h5
-- camelyonpatch_level_2_split_test_x.h5
-- camelyonpatch_level_2_split_test_y.h5
-Para este proyecto los archivos con metadatos del dataset no se han  utilizado pero se dejan en el repositorio por posible futura utilidad
-
 - En la carpeta data se encuentran los datasets intermedios guardados despues de aplicar las transformaciones y Data Augmentation
 - En la carpeta imagenes_guardadas_EDA_y_eval se encuentran guardadas plots e imágenes generadas en los notebooks.
 - Por último hemos guardado los artefactos de los diferentes modelos entrenados:
@@ -35,6 +26,16 @@ Para este proyecto los archivos con metadatos del dataset no se han  utilizado p
 + CNN_3: mejor_cnn3.h5
 + CNN_4: mejor_cnn4.h5
 + UNI_2: uni_finetuned_best.pt
-+ UNI_1: uni_head_only_best.pt 
++ UNI_1: uni_head_only_best.pt
+
+# Fuentes de datos 
+Se han usado los ficheros de datos del dataset PatchCamelyon extraídos de la fuente: https://patchcamelyon.grand-challenge.org/Introduction/ :
+- camelyonpatch_level_2_split_train_x.h5
+- camelyonpatch_level_2_split_train_y.h5
+- camelyonpatch_level_2_split_valid_x.h5
+- camelyonpatch_level_2_split_valid_y.h5
+- camelyonpatch_level_2_split_test_x.h5
+- camelyonpatch_level_2_split_test_y.h5
+Para este proyecto los archivos con metadatos del dataset no se han  utilizado
 
    
