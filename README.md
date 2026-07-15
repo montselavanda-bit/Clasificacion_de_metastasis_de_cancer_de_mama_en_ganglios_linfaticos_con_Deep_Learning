@@ -18,7 +18,7 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
    +   UNI_2: Se realiza un finetunning de las últimas dos capas del modelo UNI (encoder) y se entrena la red clasificadora como se hacía en el pipeline anterior
   Ambos pipelines son evaluados en este notebook
 
-- En la carpeta imagenes_guardadas_EDA_y_eval se encuentran guardadas plots e imágenes generadas en los notebooks.
+- En la carpeta "images/" se encuentran guardados plots e imágenes generadas en los notebooks.
 - Por último hemos guardado los artefactos de los diferentes modelos entrenados:
 + CNN_1: mejor_cnn1_gpu.h5
 + CNN_2: mejor_cnn2.h5 y mejor_CNN2_segun_val_loss.h5 (El mejor modelo a guardar obtenido durante el entrenamiento se decide segun la metrica AUC, por eso también guardé el modelo resultante entrenado con la mejor val_loss por compararlos)
