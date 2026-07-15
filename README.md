@@ -2,7 +2,7 @@
 ![Uploading image.png…](1200w.avif)
 
 Este Trabajo Fin de Master se ha desarrollado como fase final del máster de Ingeligencia Artificial cursado en la UNIR (España).
-Los datasets de imágenes se pueden descargar del Google Drive que aparece en la web del dataset : https://patchcamelyon.grand-challenge.org/Download/
+Los datasets de imágenes se pueden descargar del Google Drive que aparece en la web del dataset : https://patchcamelyon.grand-challenge.org/Download/. 
 No se incluyen los datasets en el repo directamente por límite de memoria de Github
 
 
