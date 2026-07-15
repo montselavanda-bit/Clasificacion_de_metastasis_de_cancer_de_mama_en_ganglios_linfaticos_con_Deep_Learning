@@ -19,13 +19,13 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
   Ambos pipelines son evaluados en este notebook
 
 - En la carpeta "images/" se encuentran guardados plots e imágenes generadas en los notebooks.
-- Por último hemos guardado los artefactos de los diferentes modelos entrenados:
-+ CNN_1: mejor_cnn1_gpu.h5
-+ CNN_2: mejor_cnn2.h5 y mejor_CNN2_segun_val_loss.h5 (El mejor modelo a guardar obtenido durante el entrenamiento se decide segun la metrica AUC, por eso también guardé el modelo resultante entrenado con la mejor val_loss por compararlos)
-+ CNN_3: mejor_cnn3.h5
-+ CNN_4: mejor_cnn4.h5
-+ UNI_2: uni_finetuned_best.pt
-+ UNI_1: uni_head_only_best.pt
+- Por último hemos guardado los mejores modelos entrenados de cada prueba en la carpeta "artefactos_modelos/". Los modelos explicados en la memoria del TFM se corresponden con los siguientes ficheros:
+   + CNN_1: mejor_cnn1_gpu.h5
+   + CNN_2: mejor_cnn2.h5 y mejor_CNN2_segun_val_loss.h5 (El mejor modelo a guardar obtenido durante el entrenamiento se decide segun la metrica AUC, por eso también guardé el modelo resultante       entrenado con la mejor val_loss por compararlos)
+   + CNN_3: mejor_cnn3.h5
+   + CNN_4: mejor_cnn4.h5
+   + UNI_2: uni_finetuned_best.pt
+   + UNI_1: uni_head_only_best.pt
 
 # Fuentes de datos 
 Se han usado los ficheros de datos del dataset PatchCamelyon extraídos de la fuente: https://patchcamelyon.grand-challenge.org/Introduction/ :
