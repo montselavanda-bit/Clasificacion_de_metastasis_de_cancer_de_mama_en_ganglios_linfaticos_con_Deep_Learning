@@ -14,11 +14,10 @@ Los ficheros que se encontrarán en el repositorio son los siguientes:
 
 - 00_EDA_and_CNN.ipynb: Se realiza toda la fase de exploración de datos Como parte de este prirmer pipeline en el que probamos a entrenar diferentes configuraciones de redes neuronales convolucionales, evaluando los resultados obtenidos
 - 01_uni_finetuning.ipynb: Se realizan dos pruebas con el modelo UNI.
-+   UNI_1: Un primer pipeline en el que se usa el modelo UNI para la extracción de embeddings a partir de las imágenes y se entrena una red clasificadora que a partir de esos emneddings aprenda a predecir presencia o ausencia de cáncer
-+   UNI_2: Se realiza un finetunning de las últimas dos capas del modelo UNI (encoder) y se entrena la red clasificadora como se hacía en el pipeline anterior
-Ambos pipelines son evaluados en este notebook
+   +   UNI_1: Un primer pipeline en el que se usa el modelo UNI para la extracción de embeddings a partir de las imágenes y se entrena una red clasificadora que a partir de esos emneddings aprenda a       predecir presencia o ausencia de cáncer
+   +   UNI_2: Se realiza un finetunning de las últimas dos capas del modelo UNI (encoder) y se entrena la red clasificadora como se hacía en el pipeline anterior
+  Ambos pipelines son evaluados en este notebook
 
-- En la carpeta data se encuentran los datasets intermedios guardados despues de aplicar las transformaciones y Data Augmentation
 - En la carpeta imagenes_guardadas_EDA_y_eval se encuentran guardadas plots e imágenes generadas en los notebooks.
 - Por último hemos guardado los artefactos de los diferentes modelos entrenados:
 + CNN_1: mejor_cnn1_gpu.h5
