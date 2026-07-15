@@ -36,6 +36,7 @@ Se han usado los ficheros de datos del dataset PatchCamelyon. Los datasets de im
 - camelyonpatch_level_2_split_valid_y.h5
 - camelyonpatch_level_2_split_test_x.h5
 - camelyonpatch_level_2_split_test_y.h5
-Para este proyecto los archivos con metadatos del dataset no se han utilizado
-No se incluyen los datasets en el repositorio directamente por límite de memoria de Github
+
+Para este proyecto los archivos con metadatos del dataset no se han utilizado.
+No se incluyen los datasets en el repositorio directamente por límite de memoria de Github.
    
